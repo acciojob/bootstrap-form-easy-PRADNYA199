@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+ .form-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .form-row .form-group {
+            flex: 1;
+            min-width: 200px; /* Adjust as needed for responsive design */
+        }
+        .invalid-feedback {
+            color: red;
+            display: none;
+        }
+        .was-validated .form-control:invalid ~ .invalid-feedback,
+        .was-validated .form-check-input:invalid ~ .invalid-feedback {
+            display: block;
+        }
