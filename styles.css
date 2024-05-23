@@ -3,12 +3,16 @@
  .form-row {
             display: flex;
             flex-wrap: wrap;
+	        gap: 1rem;
+            margin-bottom: 1rem;
+	
+	 
 	 
         }
         .form-row .form-group {
             flex: 1;
            
-			min-width: 200px; /* Adjust as needed for responsive design */
+			min-width: 20px; /* Adjust as needed for responsive design */
         }
         .invalid-feedback {
             color: red;
